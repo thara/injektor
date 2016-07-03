@@ -15,6 +15,8 @@ setup(
     author=injektor.__author__,
     url='https://github.com/tomochikahara/injektor',
     py_modules=['injektor'],
+    packages=['tests'],
+    test_suite='tests',
     license='MIT',
     platforms='any',
     classifiers=['Development Status :: 4 - Beta',
